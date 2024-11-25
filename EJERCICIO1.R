@@ -29,3 +29,14 @@ calcRadio <- function(C){
 print(calcRadio(C), 3)
 
 print(paste(sprintf("El resultado del radio segun circunferencia %i es: ",C), round(calcRadio(C), digits = 2)))
+
+tercerVariable <- 15
+cuartaVariable <- 3
+
+pot <- function(x,n){
+  resultado <- (x^n)
+}
+
+print(paste("El resultado de mi potencia es: ", pot(tercerVariable, cuartaVariable)))
+print(paste(sprintf("El resultado de %i elevado a %i es: ", tercerVariable, cuartaVariable), pot(tercerVariable, cuartaVariable)))
+
